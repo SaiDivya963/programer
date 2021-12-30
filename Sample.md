@@ -83,6 +83,8 @@
 
      -https://htmlcolorcodes.com/-[colour codes]
      -Vhttps://webaim.org/-[contract checker]
+     - https://getbootstrap.com/docs/4.6/components/navbar/ -[boot strap]
+     - svg icons
 
 
      ### selectors
@@ -144,6 +146,160 @@
      -algin-content
      -algin-items
      -align-self
+
+
+     ### Media Quries
+
+     -Extra small devices (Moblies)
+        -max-width:600px
+     -small devices (Large Phones)
+        -min-width:600px
+        -max-width:768px
+     -Medium Devices (small laptops)
+        -min-width:768px
+     -Large Devices (large laptops or desktops)
+        -min-width:992px
+     -Extra large Devices ()
+        -min-width:1200px
+
+
+     ...
+
+     @media only screen (min-width:320px) and
+     (max-width:500px){
+       css code
+     }
+     ....
+
+
+     ### BootStrap 4.6
+
+     - it is a css framework
+     - module (collection of functions and classes)
+     - package (collection of modules)
+     - library (collection of packages)
+     - framework (collection of library)
+     - module --> Package --> Library --> Framework
+     
+
+     -Types of modes
+       -offline
+       -online
+          -CDN links
+
+      - Background-color - bg
+      - text-white
+      - Margin in Bootstrap (m-* (0-5))
+         - 0 -->0rem
+         - 1 -->0.25rem(4px)
+         - 2 -->0.5rem(8px)
+         - 3 -->1rem (16px)
+         - 4 -->1.5rem(24px)
+         - 5 -->3rem(48px)
+      - ml-8 (margin right-left)
+      - m (margin in all directions)
+      - mt(margin-top)
+      - mb (,margin bottom)
+      - mr (margin right)
+      - padding (padding-left --> pl-5)
+
+
+      + colors
+        -primary
+        -secondary
+        -info
+        -success
+        -warning
+        -danger
+        -light
+        -dark
+        -white
+
+    -we can use color classes for
+      - Buttons (btn btn-primary)
+      - text (text-white)
+      - background(bg-secondary)
+      - alerts(alert alert-primary)
+
+
+      + Grid system
+         - sm (small devies)
+         - md (medium devices)
+         - lg (large devices)
+         - xl(extra large devices)
+      + Model
+      + Table
+
+
+
+      ### javaScript:
+
+
+      - In 1995 "Brenden Eich" introduces javaScript (Es-262)
+      - javascript loosely touple and dynamic language
+      - It is a text-based programming language and we can use in client-side
+        and server-side (Node.js) for dynamic web applications
+      - ECMA (Es-6)
+        - let & const
+        - var
+        - map()
+        - arrow function
+        - classes
+        - spread operator
+        - rest operator
+      - Data types
+        - Number
+        - BigInt(2^53-1)
+        - string
+        - boolean
+        - undefined
+        - null
+        - object *
+        - array *
+
+      - variables
+         - var
+         - let & const
+         - scope
+           - fuction level --> var
+           - block level  --> let & const
+         - redefine  --> var,let
+         - redeclare  --> var
+      - "typeof()"
+      - object
+
+
+      ....
+      {
+         name:"js"
+      }
+      .....
+
+
+      #### Alerts
+       + To generate notification
+       + alert
+       - prompt(to take inputs from the user )
+       - confirm
+
+       - console statements
+          - "console.log()"
+          - 'console.info()'
+          - 'console.warn()'
+          - 'console.error()'
+
+      - spread operator
+
+
+      .....
+
+        ...varaiables
+
+      .....
+
+     ### Task
+
+     -navbar with responsive
 
 
      
