@@ -1,14 +1,14 @@
 
    // console.log("hello")
- var name="dinnu";
- var age=16;
+//  var name="dinnu";
+//  var age=16;
 
- if(age>18){
-     let name="varsha";
-     console.log(name)
- }
+//  if(age>18){
+//      let name="varsha";
+//      console.log(name)
+//  }
 
- console.log(name)
+//  console.log(name)
 
 
 
@@ -78,14 +78,68 @@
 // console.log(harry_21)
 // console.log(data)
 
-let employee={
-    name:"Dimple",
-    designation:"junior software developer",
-    salary:"10L",
-    mobile:9392726011
-}
+// let employee={
+//     name:"Dimple",
+//     designation:"junior software developer",
+//     salary:"10L",
+//     mobile:9392726011
+// }
 
-let{name1,designation,...remainList}=employee;
-console.log(name1);
-console.log(designation);
-console.log(remainList);
+// let{name1,designation,...remainList}=employee;
+// console.log(name1);
+// console.log(designation);
+// console.log(remainList);
+
+// let demo=function(x,y){
+//     return x+y
+// }
+
+// (function(){
+//     console.log("hello")
+// }) ()
+
+ setTimeout(function(){
+     console.log("varsh")
+ },3000)
+ 
+// console.log(demo(4,6))
+//  (function(x=4,y=7){
+//     return console.log(x+y)
+// }) ()
+
+// 
+
+// let employees=["dinnu","Divya","lalithu","varsha","naveen"]
+
+// for(let i=0;i<employees.length;i++){
+//     console.log(employees[i])
+// }
+
+// for(let i of employees){
+//     console.log(i)
+// }
+
+// for(let i in employees){
+//       console.log(i)
+//      }
+
+// let results=employees.map(function(element){
+//     return element+" A"
+// })
+// console.log(employees)
+// console.log(results)
+
+// employees.forEach(function(element,index){
+//     console.log(element+"  ok ")
+// })
+
+
+//map function
+
+// let result=employees.map((element,index)=>{
+//     return element+" d"+index
+// })
+// console.log(result)
+// console.log(employees)
+
+
